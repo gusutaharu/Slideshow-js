@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+main {
+  width: 320px;
+  margin: 16px auto 0;
+}
+
+main img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0 8px;
+}
+
+button {
+  all: unset;
+  flex: 1;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  text-align: center;
+  padding: 6px 0;
+  cursor: pointer;
+}
+
+button + button {
+  margin-left: 8px;
+}
+
+ul {
+  all: unset;
+  display: flex;
+  width: 100%;
+}
+
+li {
+  all: unset;
+  flex: 1;
+}
+
+li + li {
+  margin-left: 8px;
+}
+
+li img {
+  width: 100%;
+}
