@@ -47,4 +47,9 @@ li + li {
 
 li img {
   width: 100%;
+  opacity: .6;
+}
+
+.active {
+  opacity: 1;
 }
