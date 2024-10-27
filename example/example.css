@@ -4,3 +4,13 @@ main {
   width: 256px;
   margin: 0 auto;
 }
+
+img {
+  vertical-align: bottom;
+}
+
+.container {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
