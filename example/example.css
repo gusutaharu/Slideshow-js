@@ -25,3 +25,12 @@ button {
   padding: 4px 0;
   cursor: pointer;
 }
+
+.thumbnail {
+  cursor: pointer;
+  opacity: .4;
+}
+
+.active {
+  opacity: 1;
+}
