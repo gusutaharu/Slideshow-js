@@ -28,7 +28,13 @@
 
   next.addEventListener('click',()=>{
     activeIndex++;
-
+    if (activeIndex >2){
+      activeIndex = 0;
+    }
     mainImage.src = thumbnails[activeIndex].src;
+    thumbnails[0].classList.remove('active');
+    thumbnails[1].classList.remove('active');
+    thumbnails[2].classList.remove('active');
+    thumbnails[activeIndex].classList.add('active');
   })
 }
